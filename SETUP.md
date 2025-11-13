@@ -8,12 +8,12 @@ Follow these steps to get the CFMS up and running:
 2. Create a **FREE** cluster (M0 tier)
 3. Create a database user:
    - Username: `cfms_admin`
-   - Password: Generate a secure password (save it!)   googlebaba12
+   - Password: Generate a secure password (save it!)   
 4. Add IP Address: Click "Add IP Address" → "Allow Access from Anywhere" (for development)
 5. Get connection string:
    - Click "Connect" → "Connect your application"
    - Copy the connection string
-   - Example: mongodb+srv://cfms_admin:googlebaba12@cluster0.pwcviq8.mongodb.net/?appName=Cluster0
+   - Example: 
    - Replace `<password>` with your actual password
 
 ## 2. Backend Setup (3 minutes)
@@ -41,8 +41,8 @@ cp env-example.txt .env
 
 # Edit .env file - add your MongoDB URI
 # Open .env and paste:
-MONGODB_URI=mongodb+srv://cfms_admin:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/cfms?retryWrites=true&w=majority
-JWT_SECRET_KEY=your-super-secret-key-123456789-change-in-production
+#MONGODB_URI=mongodb+srv://cfms_admin:YOUR_PASSWORD@cluster0.xxxxx.mongodb.net/cfms?retryWrites=true&w=majority
+#JWT_SECRET_KEY=your-super-secret-key-123456789-change-in-production
 
 # Run backend
 python app.py

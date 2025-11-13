@@ -1,3 +1,0 @@
-MONGODB_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/cfms?retryWrites=true&w=majority
-JWT_SECRET_KEY=your-secret-key-change-this-in-production-use-a-long-random-string
-
