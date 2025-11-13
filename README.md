@@ -5,7 +5,7 @@ A full-stack web application for managing customer complaints and feedback, buil
 ## Features
 
 - **User Authentication**: Register and login for both regular users and administrators
-- **Complaint Menegement**: Submit, track, and manage customer complaints  
+- **Complaint Management**: Submit, track, and manage customer complaints  
 - **Feedback System**: Collect and analyze customer feedback with ratings
 - **Admin Dashboard**: Comprehensive admin panel with analytics and insights
 - **Real-time Updates**: Dynamic frontend updates with backend integration
